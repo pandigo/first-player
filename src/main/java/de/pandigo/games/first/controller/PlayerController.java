@@ -28,7 +28,7 @@ public class PlayerController {
         return mapper.map(this.playerService.createPlayer(), Player.class);
     }
 
-    @RequestMapping(value = "/{playerId}", method = RequestMethod.POST, consumes = CustomMediaType.APPLICATION_ADD_EXP_JSON)
+    @RequestMapping(value = "/{playerId}", method = RequestMethod.POST, consumes = CustomMediaType.APPLICATION_PLAYER_ADDEXPTOPLAYER_JSON)
     public Player addExpToPlayer(@PathVariable(value = "playerId") long playerId, @RequestBody() Experience experience) {
         LOGGER.trace("Called addExpToPlayer playerId: {} amount of experience: {} exp", playerId, experience.getAmount());
         return mapper.map(this.playerService.addExpToPlayer(playerId, experience.getAmount()), Player.class);
