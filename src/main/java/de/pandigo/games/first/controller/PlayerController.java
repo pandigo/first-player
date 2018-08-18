@@ -1,7 +1,7 @@
 package de.pandigo.games.first.controller;
 
-import de.pandigo.games.first.domain.entity.Experience;
-import de.pandigo.games.first.domain.entity.Player;
+import de.pandigo.games.first.domain.entity.player.Experience;
+import de.pandigo.games.first.domain.entity.player.Player;
 import de.pandigo.games.first.domain.type.CustomMediaType;
 import de.pandigo.games.first.service.PlayerService;
 import org.dozer.Mapper;
