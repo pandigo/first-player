@@ -1,8 +1,8 @@
 package de.pandigo.games.first.controller;
 
-import de.pandigo.games.first.domain.entities.Experience;
-import de.pandigo.games.first.domain.entities.Player;
-import de.pandigo.games.first.domain.types.CustomMediaType;
+import de.pandigo.games.first.domain.entity.Experience;
+import de.pandigo.games.first.domain.entity.Player;
+import de.pandigo.games.first.domain.type.CustomMediaType;
 import de.pandigo.games.first.service.PlayerService;
 import org.dozer.Mapper;
 import org.slf4j.Logger;

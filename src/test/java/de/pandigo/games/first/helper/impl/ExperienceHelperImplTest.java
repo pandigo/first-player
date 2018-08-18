@@ -1,6 +1,6 @@
 package de.pandigo.games.first.helper.impl;
 
-import de.pandigo.games.first.entities.Player;
+import de.pandigo.games.first.entity.Player;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;

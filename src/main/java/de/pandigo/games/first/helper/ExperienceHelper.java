@@ -1,6 +1,6 @@
 package de.pandigo.games.first.helper;
 
-import de.pandigo.games.first.entities.Player;
+import de.pandigo.games.first.entity.Player;
 
 /**
  * Helper for making operations easier in relation ship to experience and levels.

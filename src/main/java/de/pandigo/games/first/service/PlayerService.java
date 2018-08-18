@@ -1,6 +1,6 @@
 package de.pandigo.games.first.service;
 
-import de.pandigo.games.first.entities.Player;
+import de.pandigo.games.first.entity.Player;
 
 /**
  * The PlayerService, all method in which it is necessary save the player object after performing the operation.

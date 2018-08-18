@@ -1,6 +1,6 @@
 package de.pandigo.games.first.service.impl;
 
-import de.pandigo.games.first.entities.Player;
+import de.pandigo.games.first.entity.Player;
 import de.pandigo.games.first.helper.ExperienceHelper;
 import de.pandigo.games.first.service.PlayerService;
 import org.springframework.beans.factory.annotation.Autowired;
