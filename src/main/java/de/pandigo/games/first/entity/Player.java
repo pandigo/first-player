@@ -1,21 +1,14 @@
 package de.pandigo.games.first.entity;
 
-public class Player {
+import de.pandigo.games.first.domain.entity.GameObject;
 
-    private long playerId;
+public class Player extends GameObject {
+
     private int level;
     private int exp;
 
     public Player(long playerId) {
-        this.playerId = playerId;
-    }
-
-    public long getPlayerId() {
-        return this.playerId;
-    }
-
-    public void setPlayerId(long playerId) {
-        this.playerId = playerId;
+        this.id = playerId;
     }
 
     public int getLevel() {
